@@ -1,0 +1,7 @@
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\bin\Debug\La0-A.exe.config
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\bin\Debug\La0-A.exe
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\bin\Debug\La0-A.pdb
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\obj\Debug\La0-A.csproj.AssemblyReference.cache
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\obj\Debug\La0-A.csproj.CoreCompileInputs.cache
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\obj\Debug\La0-A.exe
+E:\SoftwareDevelopment\SemesterII\ObjectOrientedProgramming2\La0-A\La0-A\obj\Debug\La0-A.pdb

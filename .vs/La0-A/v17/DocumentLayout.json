@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SoftwareDevelopment\\SemesterII\\ObjectOrientedProgramming2\\La0-A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F02C4F1-631A-460D-9404-213901E5753F}|La0-A\\La0-A.csproj|e:\\softwaredevelopment\\semesterii\\objectorientedprogramming2\\la0-a\\la0-a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F02C4F1-631A-460D-9404-213901E5753F}|La0-A\\La0-A.csproj|solutionrelative:la0-a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SoftwareDevelopment\\SemesterII\\ObjectOrientedProgramming2\\La0-A\\La0-A\\Program.cs",
+              "RelativeDocumentMoniker": "La0-A\\Program.cs",
+              "ToolTip": "E:\\SoftwareDevelopment\\SemesterII\\ObjectOrientedProgramming2\\La0-A\\La0-A\\Program.cs",
+              "RelativeToolTip": "La0-A\\Program.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAwJAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:24:31.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
