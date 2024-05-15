@@ -22,12 +22,14 @@ namespace La0_A
             Console.Write("Give me your low number:");
             string v_lownumber = Console.ReadLine();
             low_num = int.Parse(v_lownumber);
-            Console.WriteLine($"The low number is {low_num}");
             Console.Write("Give me your high number:");
             string v_highnumber = Console.ReadLine();
             high_num = int.Parse(v_highnumber);
-            Console.WriteLine($"The high number is {high_num}");
             // Write a loop that keeps iterating until the user enters a positive low number.
+            //diff num
+            int diff_num = 0;
+            diff_num = high_num - low_num;
+            Console.WriteLine($"The differene number is {diff_num}");
 
             //TASK 2
             while (low_num <= 0)
@@ -42,10 +44,7 @@ namespace La0_A
                 high_num = int.Parse(Console.ReadLine());
 
             }
-            //diff num
-            int diff_num = 0;
-            diff_num = high_num - low_num;
-            Console.WriteLine($"The differene number is {diff_num}");
+            
 
             //TASK 3
             //Create an array variable that holds every number between low and high
@@ -56,28 +55,10 @@ namespace La0_A
                 arr[a] = low_num + a;
             }
 
-            //Create a new file called "numbers.txt".
             //Get path from file
-            //Use Streamwriter to write file
-            //Path @"C:\\TEMP\numbers.txt";
             string path = Path.GetFullPath("numbers.txt");
-            //if (File.Exists(path))
-            //{
-            //    File.Delete(path);
-            //}
-            ////Create file with path
-            //using (FileStream fs = File.Create(path))
-            //{
-            //    for (int i = arr.Length - 1; i >= 0; i--)
-            //    {
-            //        byte[] arr_num = new UTF8Encoding(true).GetBytes(arr[i].ToString() + "\n");
-            //        fs.Write(arr_num, 0, arr_num.Length);
-
-            //    }
-
-            //}
-            //OR
-            using(StreamWriter sw=new StreamWriter(path))
+            //Use Streamwriter to write file
+            using (StreamWriter sw=new StreamWriter(path))
             {
                 for (int i = arr.Length - 1; i >= 0; i--)
                 {
@@ -86,6 +67,7 @@ namespace La0_A
 
                 }
             }
+            //Additional Task
             //Use methods get and validate the users input.
             //Read the numbers back from the file and print out the sum of the numbers.
             double sum = 0;
